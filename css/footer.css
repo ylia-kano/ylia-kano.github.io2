@@ -1,0 +1,25 @@
+
+.footer{
+	background-color: #e7e7e7;	
+}
+
+.footer__container{
+	width: 1168px;	
+	height: 140px;
+	margin: 0 50px;	
+}
+
+.footer__container-logo{
+	display: inline-block;
+}
+
+.footer__container-refer{
+	display: inline-block;
+}
+
+.footer__container-devel{
+	display: inline-block;
+} 
+.footer__container-icon{
+	display: inline-block;
+}

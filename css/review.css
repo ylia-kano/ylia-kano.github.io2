@@ -1,0 +1,46 @@
+.review{
+	margin-top:70px;
+}
+
+.review__container{
+	margin-left:50px;
+	background: url(../img/review.jpg);
+	background-repeat: no-repeat; 
+	height: 450px;			
+}
+
+.review__elements{
+	margin-left:170px;
+	height: inherit;
+}
+
+.review__element{
+	border:solid ;
+	display:inline-block;
+	height: 145px;
+	width: 915px;
+}
+
+.review__title{
+	display:inline-block;
+	border:solid;
+	margin-top: 60px;
+	font-size: 54px;
+	font-weight: bold;
+} 
+.review__write{
+	display:inline-block;
+	border:solid ;
+//	margin-left:180px;
+float: right;
+margin-top: 60px;
+}
+.review__text{
+	display:inline-block;
+}
+.review__arrows{
+	display:inline-block;
+	border:solid ;
+	margin-left:60px;
+}
+
