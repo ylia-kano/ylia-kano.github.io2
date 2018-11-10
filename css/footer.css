@@ -11,15 +11,24 @@
 
 .footer__container-logo{
 	display: inline-block;
+	margin-top: 50px;
+	margin-left: 50px;
 }
 
 .footer__container-refer{
 	display: inline-block;
+	margin-left: 350px;
+	letter-spacing:40px; 
 }
+
 
 .footer__container-devel{
 	display: inline-block;
+	margin-top: 60px;
+	font-weight: bold;
+	font-size: 19px;
+	float: right;
+	margin-right: 130px;
 } 
-.footer__container-icon{
-	display: inline-block;
-}
+
+

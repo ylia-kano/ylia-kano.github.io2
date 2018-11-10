@@ -1,5 +1,7 @@
 .header{
-
+	margin:0;
+	padding:0;
+	max-width: 100%;
 }
 
 .header_line{
@@ -19,37 +21,23 @@
 .nav__item-catalog{
 	display:inline-block ;
 	float:left;
-	margin-top: 30px;
-	margin-right: 70px;	
+	margin-top: 28px;
+	margin-right: 68px;	
 }
 
 .nav__item-zakaz{
 	display:inline-block ;
 	float:left;
-	margin-top: 30px;
-}
-
-.nav__txt{
-	font-size: 16px;
-	font-weight: bold;
-}
-
-.nav__refer{
-	text-decoration: none;
-	color:#000000;
-	letter-spacing: 0.6px;
+	margin-top: 28px;
 }
 
 .header__item-logo{
 	display:inline-block ;
 	margin-right: 100px;
 	margin-left: 50px;
-	margin-top: 5px;
+	margin-top: 6px;
 	float: left;
 	margin-bottom: 5px;	
-}
-.header__item-dop{
-	
 }
 
 .header__item-search{
@@ -67,8 +55,7 @@
 .header__item-korz{
 	display:inline-block ;
 	float: right;
-	margin-top: 30px;	
-
+	margin-top: 28px;
 } 
 
 .header__icon{	
@@ -77,12 +64,5 @@
     margin: auto;
 }
 
-
-
-.header__txt{
-	font-size: 16px;
-	font-weight: bold;
-	
-}
 
 

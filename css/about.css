@@ -1,64 +1,40 @@
 .about{
-	margin-left: 200px;
+	
+	
 }
 
+
 .about__title{
-	font-size: 54px;
-	font-weight: bold;
-	padding-top: 50px;
-	padding-left: 10px;
+	padding-top: 45px;
+	padding-left: 220px;
 }
 
 .about__container{
-
+margin-left: 200px;
+border: solid;
+height: 475px;
+width: 700px;
 }
 
 .about__container-item{
 	float: left;
+	border: solid;
 }
 
 .about__item{
 	display:inline-block;
-	width:320px;
+	width:321px;
 	height:120px;
 	padding-top: 30px;
 	padding-left: 20px;
-	font-size: 20px;
-	font-weight: bold;
-}
-
-.about__review{
-	margin-left:0px;
-	border:solid ;
-}
-
-.about__review-container{
-	margin-left:50px;
-	border:solid ;
+	//font-size: 20px;
+	//font-weight: bold;
+	border: solid;
 	
-
 }
-.about__review-element{
-	border:solid ;
-	display:inline-block;
-
+.item1{
+	float: left;
 }
-
-.about__review-title{
-	display:inline-block;
-	border:solid ;
-} 
-.about__review-write{
-	display:inline-block;
-	border:solid ;
-	margin-left:180px;
+.item2{
+	float: right;
 }
-.about__review-text{
-	display:inline-block;
-}
-.about__review-arrows{
-	display:inline-block;
-	border:solid ;
-	margin-left:60px;
-}
-

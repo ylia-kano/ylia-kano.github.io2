@@ -15,32 +15,72 @@
 }
 
 .review__element{
-	border:solid ;
 	display:inline-block;
-	height: 145px;
-	width: 915px;
 }
 
 .review__title{
 	display:inline-block;
-	border:solid;
 	margin-top: 60px;
-	font-size: 54px;
+	font-size: 53px;
 	font-weight: bold;
 } 
+
 .review__write{
 	display:inline-block;
-	border:solid ;
-//	margin-left:180px;
-float: right;
-margin-top: 60px;
+	border:2px solid ;
+	border-color: #444444;
+	float: right;
+	margin-left: 470px;
+	padding-top:15px;
+	padding-left:40px;
+	padding-bottom:10px;
+	padding-right:40px;
+	background-color: #FFFFFF;
+	font-size: 17px;
+	font-weight: bold;
+	
+	margin-top: 80px;
+	margin-right: 30px;
+//  text-decoration: none;
+
 }
 .review__text{
 	display:inline-block;
-}
-.review__arrows{
-	display:inline-block;
-	border:solid ;
-	margin-left:60px;
+	padding-top: 30px;
+	line-height: 30px;
+	letter-spacing:0.6px; 
+	color:#444444; 
 }
 
+.review__info{
+	display:inline-block;
+	line-height: 30px;
+	letter-spacing:0.6px; 
+	color:#444444; 
+	margin-top: 40px;
+}
+
+.review__arrows{
+	display:inline-block;
+	margin-top:30px;
+	float: right;
+	margin-left: 480px;
+	margin-top: 60px;
+}
+
+.review__arrows-item{
+	display:inline-block;
+	margin-right: 30px;
+}
+
+.review__info-title{
+	font-weight: bold;
+}
+
+.review__info-text{
+
+}
+
+.review__image{
+	margin-top:60px;
+}

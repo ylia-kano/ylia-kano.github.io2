@@ -1,0 +1,58 @@
+*{ 
+	
+}
+
+.text-bold-average{
+	font-size: 17px;
+	font-weight: 700;
+}
+
+.text-bold-min{
+	font-size: 15px;
+	font-weight: bold;
+}
+
+.text-refer{
+	text-decoration: none;
+	color:#000000;
+	letter-spacing: 0.1px;
+}
+
+.text-title{
+	font-size: 53px;
+	font-weight: bold;
+}
+
+.text-bold-max{
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.text-narmal-average{
+	font-size: 17px;
+}
+
+.text-normal-min{
+	font-size: 15px;
+}
+
+
+
+
+.text-title{
+	font-size: 53px;
+	font-weight: bold;
+}
+
+.text-bold_min{
+	font-size: 15px;
+	font-weight: bold;
+}
+
+
+
+
+
+.text-narmal-average{
+	font-size: 17px;
+}

@@ -1,0 +1,114 @@
+.header-order{
+	background-color:#f9f9f9;
+	height: 265px;
+}
+
+.header-order__title{
+	font-size: 53px;
+	margin-top: 50px;
+	font-weight: bold;
+	text-align: center;
+	line-height:60px;
+
+}
+
+.header-order__image-bottom{
+	position: absolute;
+	z-index: 10;
+	top: 330px;
+
+}
+.form__container{
+margin-left: 100px;	
+border: solid;
+height: 300px;
+width: 1000px; 
+}
+
+
+.form__text{
+margin-left:220px;
+margin-top:110px;
+font-size: 17px;
+color:#444444; 
+//font-weight: 500;
+line-height:30px; 
+}
+
+.form__type{
+background-color:#FFFFFF;
+}
+
+.form__color{
+background-color:#e7e7e7;
+}
+
+.form__name{
+background-color:#FFFFFF;
+}
+
+.form__contact{
+background-color:#e7e7e7;
+}
+
+.form_dopinfo{
+background-color:#FFFFFF;
+}
+
+
+.form__container-item-text{
+	display:inline-block ;
+	float:left;
+	
+	margin: 0 auto;
+	font-weight: bold;
+	font-size: 17px;
+	color:#62d1ba;
+
+	border: solid;
+	
+	margin-top: 60px;
+	margin-left: 60px;
+	width: 100px;
+
+}
+
+.form__container-item{
+	display:inline-block ; 
+
+	font-weight: bold;
+	font-size: 19px;
+	border: solid;
+	margin-top: 60px;
+	line-height:60px; 
+	//margin-left: 60px;
+	//float: right;
+}
+
+.pos{
+display:inline-block;
+}
+
+.form__line-dopinfo{
+}
+
+.form__line{
+border-bottom:1px solid;
+}
+
+.form__border{
+border:none;
+}
+
+.form__border-dopinfo{
+border:none; 
+} 
+
+.form__border-contact{
+border:none;
+background-color:#e7e7e7;
+}
+
+.form__label{
+// фамилия, имя, отчество
+}
