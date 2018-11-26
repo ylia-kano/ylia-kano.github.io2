@@ -1,0 +1,29 @@
+.order{
+	margin: 0px;
+	padding: 0;
+
+}
+.order__container{
+	background-color: #f1f1f1;
+	position: relative;
+	height: 260px;
+}
+
+.menu{
+	border-color: #f1f1f1;
+}
+.order__title{
+	margin-top: 50px;
+	margin-left: 330px;
+	text-align: center;
+	line-height: 60px;
+	letter-spacing: 0.2px;
+	float: left;
+}
+
+.order__image-bottom{
+	position: absolute;
+	z-index: 10;
+	top: 235px;
+}
+

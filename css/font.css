@@ -1,5 +1,11 @@
-*{ 
-	
+.text-title{
+	font-size: 53px;
+	font-weight: bold;
+}
+
+.text-bold-max{
+	font-size: 20px;
+	font-weight: bold;
 }
 
 .text-bold-average{
@@ -14,21 +20,15 @@
 
 .text-refer{
 	text-decoration: none;
-	color:#000000;
+	color: #000000;
 	letter-spacing: 0.1px;
 }
 
-.text-title{
-	font-size: 53px;
-	font-weight: bold;
+.text-normal-max{
+	font-size: 19px;
 }
 
-.text-bold-max{
-	font-size: 20px;
-	font-weight: bold;
-}
-
-.text-narmal-average{
+.text-normal-average{
 	font-size: 17px;
 }
 

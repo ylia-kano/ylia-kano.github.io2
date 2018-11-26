@@ -1,8 +1,5 @@
 .about{
-	
-	
 }
-
 
 .about__title{
 	padding-top: 45px;
@@ -10,31 +7,35 @@
 }
 
 .about__container{
-margin-left: 200px;
-border: solid;
-height: 475px;
-width: 700px;
+	margin-left: 200px;
+	height: 475px;
+	width: 700px;
+	padding-top: 20px;
 }
 
 .about__container-item{
 	float: left;
-	border: solid;
+	padding-bottom: 15px;
 }
 
 .about__item{
-	display:inline-block;
-	width:321px;
-	height:120px;
-	padding-top: 30px;
-	padding-left: 20px;
-	//font-size: 20px;
-	//font-weight: bold;
-	border: solid;
-	
+	display: inline-grid;
+	width: 323px;
+	height: 120px;
+	padding-top: 20px;
+	padding-left: 25px;
+	line-height: 22px;
 }
+
 .item1{
 	float: left;
 }
+
 .item2{
 	float: right;
+}
+
+.about__image{
+	width: 50px;
+	text-align: center;
 }

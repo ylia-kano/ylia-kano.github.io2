@@ -1,12 +1,11 @@
-
 .product{
 	margin: 0px;
-	padding:0;
+	padding: 0;
 }
 
 .product__title{
-	margin-left:220px;
-	margin-top:45px;
+	margin-left: 220px;
+	margin-top: 45px;
 	position: absolute;
 }
 
@@ -16,19 +15,19 @@
 }
 
 .product__ned{
-	display:inline-block ;
+	display: inline-block;
 	width: 160px;
-	float:left;
+	float: left;
 	margin-top: 65px;
 	text-align: center;
 	color: #63d1bb;
-	line-height:17px;
+	line-height: 17px;
 }
 
 .product__info{
-	display:inline-block ;
+	display: inline-block;
 	width: 290px;
-	line-height:30px;
+	line-height: 30px;
 	padding-left:15px;
 	padding-top: 5px;
 }
@@ -44,48 +43,62 @@
 
 .product-week__container{
 	margin-top: 47px;
-	line-height:40px;
+	line-height: 40px;
 }
 
 .product-week__param{
-	display:inline-block;
+	display: inline-block;
 	width: 40px;
 	height: 20px;
 	letter-spacing: 0.1px;
 }
 
 .product-week__atr{
-	display:inline-block;
-	padding-left:50px;
+	display: inline-block;
+	padding-left: 50px;
 	letter-spacing: 0.1px;
 }
 
 .product-week__line{
-	border-bottom:1px solid;
-	border-color:#e7e7e7;
+	border-bottom: 1px solid;
+	border-color: #e7e7e7;
 }
 
 .product-week__price{
-	margin-top:110px;
+	margin-top: 110px;
 	margin-left: 70px;
 	color: #444444;
 }
 
 .product-week__order{
-	margin-top:30px;
-	padding-left:90px;
-	border: 2px solid;	
-	border-color: #444444;
+	margin-top: 30px;
+	//padding-left: 90px;
+	//border: 2px solid;	
+	
 }
 
 .product-week__order-text{
-	padding:8px 8px 10px 10px;
+	padding: 8px 8px 10px 10px;
 	color: #444444;
 	letter-spacing: 0.1px;
+	border: 2px solid;
+	background-color: #FFFFFF;
+	width: 285px;
+	height: 50px;
+	border-color: #444444;
+}
+.product-week__order-text:hover{
+	background-color: #444444;
+	color: #f6f6f6;
+}
+
+.product-week__order-text:active{
+	background-color: #444444;
+	color: #8d8d8d;
 }
 
 .product__image{ 
-	display:inline-block ;
+	display: inline-block ;
 	width: 520px;
 	height: 630px;
 	float: right;

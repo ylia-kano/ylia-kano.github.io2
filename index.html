@@ -35,17 +35,23 @@
 				</div>	
 			</nav>
 			<div class="header__item-logo">
+				<a class='nav__logo-refer' href="#">
 				<img class="nav__logo" src="img/mishka-logo-desktop.png" alt="Логотип фирмы">
-			</div>
+				</div>
+				</a>
 			<div>
 				<div class="header__item-search">
-					<img class="header__icon" src="img/search.png" alt="Поиск">
+					<div class="search">
+					</div>
 				</div>
-				<div class="header__item-ikorz">
-					<img class="header__icon" src="img/cart.png" alt="Корзина">
-				</div>
-        		<div class="header__item-korz text-bold-average">Корзина: пока пуста
+				<div class="header__item-korzina">
+					<div class="header__item-ikorz">
+					</div>
+        		<div class="header__item-korz text-bold-average">
+        			<a class='text-refer' href="#">	Корзина: пока пуста 
+        		</a>
         		</div> 
+        		</div>
         	</div>
     	</div>	
  	</header>
@@ -63,19 +69,19 @@
             	    <div class="menu__info"><a class="menu__txt-info" href="#">Бесплатная доставка по России</a>
             	    </div>
         	    </div>
-        		<div class="menu__title text-title"> Милые штуки ручной </br>работы для дома 
+        		<div class="menu__title text-title"> Милые штуки ручной <br>работы для дома 
         		</div>
         		<div class="home-button"> 
           	  		<div class="home-button__inter">
               	    	<div class="home-button__item text-bold-max">Предметы 
-              	    	<br /> интерьера 
+              	    	<br> интерьера 
                	 		</div>
                	  		<div class="home-button__img">
                 	     <img src="img/interior.png" >
                     	</div>
            	 		</div>
             		<div class="home-button__kids">
-                		<div class="home-button__item text-bold-max">Детские <br />игрушки
+                		<div class="home-button__item text-bold-max">Детские <br>игрушки
                     	</div>
                     	<div class="home-button__img">
                 	    <img src="img/toy.png" >
@@ -93,11 +99,11 @@
         	<div class="product__title text-title">Вязаные корзинки
         	</div>
         	<div class="product__container">
-           		<div class="product__ned text-bold-average">ТОВАР<br/>НЕДЕЛИ
+           		<div class="product__ned text-bold-average">ТОВАР<br>НЕДЕЛИ
             	</div>
             	<div class="product__info"> 
                 <div class="product-week">
-                    <div class="product-week__information text-narmal-average"> 
+                    <div class="product-week__information text-normal-average"> 
                         <p>Экологически чистая пряжа, ручная работа. Доступны в шести расцветках и трех размерах.</p>
                     </div>
                     <div class="product-week__container text-normal-min">
@@ -127,9 +133,9 @@
 						Цена: 990 руб.
 					</div>
 					<div class="product-week__order">
-					<div class="product-week__order-text text-bold-average">
-					ЗАКАЗАТЬ
-					</div>
+					
+					<button class="product-week__order-text text-bold-average">ЗАКАЗАТЬ
+		</button>
 					</div>
 				</div>
 			</div>
@@ -149,35 +155,35 @@
 				<div class="about__container text-bold-max">
 				<div class="about__container-item">
 					<div class="about__item item1"> 
-						<div><img src="img/icon-1.png">
+						<div class="about__image"><img src="img/icon-1.png">
 						</div> Экологически<br> чистые материалы
 					</div>
 					<div class="about__item item2">
-						<div ><img src="img/icon-2.png">
+						<div class="about__image"><img src="img/icon-2.png">
 						</div>Связано вручную с <br> любовью и умилением
 					</div>
 				</div >
 				<div class="about__container-item">
 					<div class="about__item item1">
-						<div><img src="img/icon-3.png">
+						<div class="about__image"><img src="img/icon-3.png">
 						</div>Скандинавский стиль<br> по российской цене
 					</div>
 					<div class="about__item item2">
-						<div ><img src="img/icon-4.png">
-						</div>Поддержание отечественного<br> производителя 
+						<div class="about__image"><img src="img/icon-4.png">
+						</div>Поддержка отечественного<br> производителя 
 					</div> 
 				</div>
-				<div >
+				<div class="about__container-item">
 					<div class="about__item item1">
-						<div ><img src="img/icon-5.png">
+						<div class="about__image"><img src="img/icon-5.png">
 						</div>Увеличивает лайки <br> на фотографиях
 					</div>
 					<div class="about__item item2">
-						<div><img src="img/icon-6.png">
+						<div class="about__image"><img src="img/icon-6.png">
 						</div>Поставляется в <br> подарочной упаковке
 					</div> 
 				</div>
-			</div>
+				</div>
 			</div>
 		</section>
 		<section class="review">
@@ -186,18 +192,19 @@
 
 				<div class="review__elements">
 					<div class="review__element">
-						<div class="review__title">Отзывы
+						<div class="review__title text-title">Отзывы
 						</div> 
-						<button class="review__write">
+						<button class="review__write text-bold-average">
 						НАПИСАТЬ
 						</button> 
 					</div>
-					<div class="review__element"><div class="review__text">Я молодая мама, но все равно фотографии не набирали и близко такого количества лайков,<br> как у популярных инстамамочек. В отчаянии, я накупила аксессуаров и игрушек в Мишке,<br> и мои фотографии сразу стали более стильными, а также набирают больше лайков!
-					</div>
+					<div class="review__element">
+						<div class="review__text text-normal-average">Я молодая мама, но все равно фотографии не набирали и близко такого количества лайков,<br> как у популярных инстамамочек. В отчаянии, я накупила аксессуаров и игрушек в Мишке,<br> и мои фотографии сразу стали более стильными, а также набирают больше лайков!
+						</div>
 					</div>
 					<div class="review__element">
 						<div class="review__info">
-						<div class="review__info-title">
+						<div class="review__info-title text-bold-average">
 						Анастасия Красильникова 
 						</div>
 						<div class="review__info-text"
@@ -205,24 +212,19 @@
 						</div>
 						</div>
 						<div class="review__arrows">
-							<div class="review__arrows-item">
-						<img src="img/huge-arrow-left.png">
+							<div class="review__arrows-item arrows-left">
 							</div>
-						<div class="review__arrows-item">
-						<img src="img/huge-arrow-right.png">
-						</div>
+							<div class="review__arrows-item arrows-right">
+							</div>
 						</div> 
 					</div>
 				</div>
 				<div class="review__image">
-			<img src="img/zigzag-line-desktop.png">
-				
+			<img src="img/zigzag-line-desktop.png">		
 			</div>
 			</div> 
-
 		</div>
 		</section>
-
 		<section class="contacts">
 			<div class="container">
 			<div class="contacts__container">
@@ -230,28 +232,28 @@
 				<img src="img/flag.png">
 				</div> 
 				<div class="contacts__info">
-				<div class="contacts__info-tit">Контакты
+				<div class="contacts__info-title text-title">Контакты
 				</div>
 					<div class="contacts__info-cont">
-						<div class="contacts__info-cont-cont">
-							<div class="contacts__param">
+						<div class="contacts__info-cont-cont text-normal-average">
+							<div class="contacts__email">
 							<label">e-mail:</label>
 							</div>
 							<div class="contacts__atr-e-mail">info@mimimishkashop.ru
 							</div>
 						</div>
 						<div class="contacts__info-cont-cont">
-							<div class="contacts__param"><label">адрес:</label> 
+							<div class="contacts__address"><label">адрес:</label> 
 							</div>
-							<div class="contacts__atr">г. Санкт-Петербург,<br>
-ул. Большая Конюшенная, <br /> д. 19/8,офис 101<br> 
+							<div class="contacts__atr-address">г. Санкт-Петербург,<br>
+ул. Большая Конюшенная, <br> д. 19/8,офис 101<br> 
 							</div>
 						</div>
 					</div>
 					<div class="contacts__info-write">
-					<div class="contacts__info-write-button">
+					<button class="contacts__info-write-button text-bold-average">
 						НАПИШИТЕ НАМ
-					</div>
+					</button>
 					</div>
 				</div> 
 				<div class="contacts__cards">
@@ -264,17 +266,23 @@
 		<footer class="footer"> 
 		<div class="footer__container">
 			<div class="footer__container-logo">
-			 <img src="img/logo-footer.png" alt="Логотип фирмы"> 
+			<div class="footer__logo">
+			</div>
 			</div>
 			<div class="footer__container-refer">
-			<img src="img/insta.png" alt="Поиск">
-			<img src="img/fb.png" alt="Поиск">
-			<img src="img/twitter.png" alt="Поиск">
+			<div class="footer__insta">
 			</div>
-			<div class="footer__container-devel">Разработано
+			<div class="footer__fb">
+			</div>
+			<div class="footer__twitter">
+			</div>
+			
+			</div>
+			<div class="footer__container-devel text-bold-max">
+			<a class='text-refer' href="#">Разработано</a>
 			</div>
 		</div>
-	</footer> 
+		</footer> 
 <!--<iframe src="footer.html" seamless width="1250px" height="150">
 </iframe>-->
 </body>

@@ -1,97 +1,101 @@
 .contacts{
-	margin-top:150px;
+	margin-top: 160px;
 }
 
 .contacts__container{
-	margin-top:60px ;
+	margin-top: 70px;
 	width: 1100px;
-	height: 550px;
-	
+	height: 540px;
 }
 
-
 .contacts__image{
-	display:inline-block;
-	float:left;
-	margin-left: 110px;
-	margin-top:60px ;
-
+	display: inline-block;
+	float: left;
+	margin-left: 115px;
+	margin-top: 65px ;
 }
 
 .contacts__info{
-	display:inline-block;
+	display: inline-block;
 	width: 400px;
-	margin-top: 60px;
-
+	margin-top: 55px;
 }
 
-.contacts__info-tit{
-	margin-left: 50px;
-	font-size: 53px;
-	font-weight: bold;
-
+.contacts__info-title{
+	margin-left: 60px;
+	margin-top: 10px;
 }
 
 .contacts__info-cont{
-	margin-top: 50px;
+	margin-top: 40px;
 	margin-left: 60px;
-
 }
 
 .contacts__info-cont-cont{
-	margin-top: 20px;
+	margin-bottom: 30px;
 }
 
-.contacts__param{
-	display:inline-block;
-	//float: left;
+.contacts__email{
+	display: inline-block;
 }
 
-.contacts__atr{
-	display:inline-block;
-	margin-left: 15px;
-	font-size: 17px;
-	line-height:30px;
+.contacts__address{
+	display: inline-block;
+	vertical-align: top;
+	line-height: 30px;
+}
+
+.contacts__atr-address{
+	display: inline-block;
+	margin-left: 30px;
+	line-height: 30px;
 }
 
 .contacts__atr-e-mail{
-	display:inline-block;
-	border-bottom:1px solid;
-	border-color:#62d1ba; 
-	margin-left: 15px;
-	font-size: 17px;
-	line-height:30px;
-
-
+	display: inline-block;
+	border-bottom: 1px solid;
+	border-color: #62d1ba; 
+	margin-left: 20px;
+	line-height: 30px;
 }
+
 .contacts__info-write{
 	margin-top: 80px;
-	margin-left: 50px;
-	margin-right:120px;
+	margin-left: 60px;
+	margin-right: 105px;
 }
 
 .contacts__info-write-button{
-	padding-top: 10px;
-	padding-bottom: 10px;
+	padding-top: 12px;
+	padding-bottom: 12px;
+	padding-left: 40px;
+	padding-right: 40px;
 	text-align: center;
-	font-weight: bold;
-	border:2px solid ;
+	border: 2px solid ;
 	border-color: #444444;
 	color: #444444;
-	letter-spacing:0.7px; 
-
+	background-color: #FFFFFF;
 }
+
+.contacts__info-write-button:hover{
+	background-color: #444444;
+	color: #f6f6f6;
+}
+
+.contacts__info-write-button:active{
+	background-color: #444444;
+	color: #8d8d8d;
+}
+
 .contacts__cards{
-	display:inline-block;
+	display: inline-block;
 	width: 525px;
-	height:455px;
+	height: 455px;
 	float: right;
-	
 	background: url(../img/map-desktop@1x.jpg);
 }
 
 .contacts__cards-pin{
-
-	margin-top:150px;
+	margin-top: 150px;
 	margin-left: 240px;
 }

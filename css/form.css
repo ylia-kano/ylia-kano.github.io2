@@ -1,114 +1,150 @@
-.header-order{
-	background-color:#f9f9f9;
-	height: 265px;
+.form{
+//	border:solid;
 }
-
-.header-order__title{
-	font-size: 53px;
-	margin-top: 50px;
-	font-weight: bold;
-	text-align: center;
-	line-height:60px;
-
-}
-
-.header-order__image-bottom{
-	position: absolute;
-	z-index: 10;
-	top: 330px;
-
-}
-.form__container{
-margin-left: 100px;	
-border: solid;
-height: 300px;
-width: 1000px; 
-}
-
 
 .form__text{
-margin-left:220px;
-margin-top:110px;
-font-size: 17px;
-color:#444444; 
-//font-weight: 500;
-line-height:30px; 
+	margin-left: 220px;
+	margin-top: 110px;
+	color: #444444; 
+	line-height: 30px; 
+	//border: solid;
 }
 
 .form__type{
-background-color:#FFFFFF;
+	background-color: #FFFFFF;
+	//border: solid;
+	height: 240px;
 }
 
 .form__color{
-background-color:#e7e7e7;
+	background-color: #e7e7e7;
+//	border: solid;
+	height: 225px;
 }
 
 .form__name{
-background-color:#FFFFFF;
+	background-color: #FFFFFF;
+	//border: solid;
+	height: 305px;
 }
 
 .form__contact{
-background-color:#e7e7e7;
+	background-color: #e7e7e7;
+//	border: solid;
+	height: 225px;
 }
 
 .form_dopinfo{
-background-color:#FFFFFF;
+	background-color: #FFFFFF;
+	//border: solid;
+	height: 260px;
 }
 
-
-.form__container-item-text{
-	display:inline-block ;
-	float:left;
-	
-	margin: 0 auto;
-	font-weight: bold;
-	font-size: 17px;
-	color:#62d1ba;
-
-	border: solid;
-	
-	margin-top: 60px;
-	margin-left: 60px;
-	width: 100px;
-
+.form__param{
+	display: inline-block;
+	float: left;
+	color: #62d1ba;
+	//border: solid;
+	width: 160px;
+	margin-left: 50px;
 }
 
-.form__container-item{
-	display:inline-block ; 
+.form__text-title{
+	//border:solid;
+	text-align: center;
+}
 
-	font-weight: bold;
-	font-size: 19px;
-	border: solid;
+.form__param_color {
 	margin-top: 60px;
+}
+.form__param_info {
+	margin-top: 60px;
+}
+.form__param_contacts {
+	margin-top: 60px;
+}
+.tel{
+
+}
+.e-mail{
+	margin-top: 60px;
+}
+
+.form__param_dopinfo {
+	margin-top: 60px;
+}
+.form__param_type {
+	margin-top: 60px;
+}
+
+.form__attribute{
+	display:inline-block; 
+	//border: solid;
+	margin-top: 30px;
 	line-height:60px; 
-	//margin-left: 60px;
-	//float: right;
 }
 
-.pos{
-display:inline-block;
+.form__radiobutton{
+
+}
+
+.form__checkbox{
+	width: 250px;
+}
+
+.form__info-label-text{
+	
+}
+
+.form__info-text{
+
+}
+
+.form__tel-email{
+
+}
+
+.form__textarea{
+
 }
 
 .form__line-dopinfo{
+	//border: solid;
+}
+
+.form__line-contacts{
+	margin-top: 10px;
+	margin-left: 10px;
+	border-bottom: 1px solid;
+	width: 700px;
+	
 }
 
 .form__line{
-border-bottom:1px solid;
+	border-bottom: 1px solid;
+	display:inline-block; 
+	width: 590px;
 }
 
+
 .form__border{
-border:none;
+	border: none;
 }
 
 .form__border-dopinfo{
-border:none; 
+	border: none; 
+	width: 700px;
 } 
 
 .form__border-contact{
-border:none;
-background-color:#e7e7e7;
+	border: none;
+	background-color: #e7e7e7;
+
+	
 }
 
 .form__label{
-// фамилия, имя, отчество
+	// фамилия, имя, отчество
+	//border: solid;
 }
+

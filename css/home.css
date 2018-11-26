@@ -1,32 +1,31 @@
 .home{
 	background-color: #f9f9f9;
 	margin: 0px;
-	padding:0;
+	padding: 0;
 }
 
-
 .home__image{
-	background: url(../img/hero-desktop.jpg) ;	
+	background: url(../img/hero-desktop.jpg);	
 	height: 747px;
 	position: relative;
 }
 
 .menu{
 	width: 1050px;
-	margin-left:47px;
+	margin-left: 47px;
 	border: solid;
 	border-color: #f9f9f9;
 }
 
 .menu__new{
-	display:inline-block ;
+	display: inline-block;
 	margin-top: 17px;
 	margin-right: 58px;
 	float: left;
 }
 
 .menu__sale{
-	display:inline-block ;
+	display: inline-block;
 	margin-top: 17px;
 	float: left;
 }
@@ -37,31 +36,31 @@
 }
 
 .menu__info{
-	display:inline-block;
+	display: inline-block;
 	margin-top: 15px;
-	float:right;
+	float: right;
 }
 
 .menu__txt-info{
 	text-decoration: none;
-	color:#a5a5a5;
+	color: #a5a5a5;
 	letter-spacing: 0.1px;
 	font-size: 15px;
 }
 
 .menu__title{
 	margin-top: 110px;
-	margin-left:270px;
+	margin-left: 270px;
 	text-align: center;
-	line-height:60px;
+	line-height: 60px;
 	letter-spacing: 0.2px;
 	float: left;
 }
 
 .home-button{
-	bottom:0px;
-	position:absolute;
-	margin-top:100px;
+	bottom: 0px;
+	position: absolute;
+	margin-top: 100px;
 	margin-left: 50px;
 	width: 1050px;
 	height: 120px;	
@@ -69,13 +68,12 @@
 
 .home__image-bottom{
 	position: absolute;
-	width: 1200px;
 	z-index: 10;
 	top: 815px;
 }
 
 .home-button__inter{
-	display:inline-block ;
+	display: inline-block;
 	width: 524px;
 	height: 120px;
 	float: left;
@@ -83,7 +81,7 @@
 }
 
 .home-button__kids{
-	display:inline-block ;
+	display: inline-block;
 	width: 524px;
 	height: 120px;
 	float: left;
@@ -91,7 +89,7 @@
 }
 
 .home-button__item{
-	display:inline-block ;
+	display: inline-block;
 	padding-left: 37px;
 	padding-top: 27px;
 	color: #ffffff;
@@ -99,8 +97,8 @@
 }
 
 .home-button__img{
-	display:inline-block ;
+	display: inline-block;
 	float: right;
-	padding-right:  35px;
+	padding-right: 35px;
 	padding-top: 30px;
 }
