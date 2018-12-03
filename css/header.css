@@ -57,25 +57,18 @@
 
 .search:hover{
 	background: url(../img/search-hover.png) no-repeat; 
-//	transition: 0.3s ease-in-out;
 }
 
 .search:active{
 	background: url(../img/search-active.png) no-repeat;
 }
 
-
-
-
 .header__item-korzina{
 	display: inline-block;
 	float: right;
 	background: url(../img/cart.png) no-repeat;
 	margin-top: 30px;
-//	margin-left: 32px;
 }
-
-
 
 .header__item-korz{
 	display: inline-block;
@@ -97,8 +90,6 @@
 	display: block;
     margin: auto;
 }
-
-
 
 .text-refer:hover{
 	color: #8d8d8d; 

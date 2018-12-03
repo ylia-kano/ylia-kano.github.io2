@@ -52,7 +52,7 @@
 	margin-top: 110px;
 	margin-left: 270px;
 	text-align: center;
-	line-height: 60px;
+	
 	letter-spacing: 0.2px;
 	float: left;
 }
@@ -72,33 +72,57 @@
 	top: 815px;
 }
 
-.home-button__inter{
-	display: inline-block;
+.home-button__item{
+	padding-left: 37px;
+	padding-top: 5px;
+	color: #ffffff;
+	line-height: 30px;
 	width: 524px;
 	height: 120px;
+	border: none;
+	text-align: left;
+}
+
+.inter{
 	float: left;
 	background-color: #63d1bb;
 }
 
-.home-button__kids{
-	display: inline-block;
-	width: 524px;
-	height: 120px;
+.inter:hover{
+	padding-bottom:5px;
+	background-color: #59d5bc;
+}
+
+.inter:active{
+	background-color: #59d5bc;
+	color:#97e2d2;
+}
+
+.kids{
 	float: left;
 	background-color: #56c3b2;
 }
 
-.home-button__item{
-	display: inline-block;
-	padding-left: 37px;
-	padding-top: 27px;
-	color: #ffffff;
-	line-height: 30px;
+.kids:hover{
+	padding-bottom:5px;
+	background-color: #46c1ae;
+}
+
+.kids:active{
+	background-color: #46c1ae;
+	color:#8dd5c9;
+}
+
+.home-button__item-text{
+	width: 200px;
+	float: left;
 }
 
 .home-button__img{
 	display: inline-block;
 	float: right;
-	padding-right: 35px;
-	padding-top: 30px;
+	padding-right: 30px;
+
 }
+
+

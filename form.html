@@ -29,7 +29,7 @@
 				</div>	
 			</nav>
 			<div class="header__item-logo">
-				<a class='nav__logo-refer' href="#">
+				<a class='nav__logo-refer' href="index.html">
 				<img class="nav__logo" src="img/mishka-logo-desktop.png" alt="Логотип фирмы">
 				</div>
 				</a>
@@ -79,60 +79,57 @@
 		<form action="#">
 			<div class="form__type"> 
 				<div>
-					<div class="form__param form__param_type text-bold-average"> 
-						<div class="form__text-title">ТИП 
+					<div class="form__param text-bold-average"> 
+						<div class="form__text-type">ТИП 
 						</div> 
 					</div>
 					<div class="form__attribute text-bold-max form__radiobutton"> 
-						<input type="radio" name="type-toys" value="1" required /><label>Аксессуар для интерьера</label> <br>
-						<input type="radio" name="type-toys" value="2" required /><label>Детская игрушка</label>
+						<input class="radiobutton" type="radio" name="type-toys" value="1" required checked="checked"/><label class="form__type-label">Аксессуар для интерьера</label> <br>
+						<input class="radiobutton" type="radio" name="type-toys" value="2" required /><label class="form__type-label">Детская игрушка</label>
 					</div>
 				</div>
 			</div>
 			<div class="form__color"> 
 				<div>
-					<div class="form__param text-bold-average form__param_color"> 
-						<div class="form__text-title"> ЦВЕТ	
+					<div class="form__param text-bold-average"> 
+						<div class="form__text-color"> ЦВЕТ	
 						</div> 
 					</div>
 					<div class="form__attribute form__checkbox text-bold-max">
-						<input type="checkbox" name="color-toys" value="1" />Белый<br />
-						<input type="checkbox" name="color-toys" value="5"/>Черный<br />
+						<input class="checkbox" type="checkbox" name="color-toys" value="1" checked="checked"/> Белый<br>
+						<input class="checkbox" type="checkbox" name="color-toys" value="5"/>Черный<br>
 					</div>
 					<div class="form__attribute form__checkbox text-bold-max">
-						<input type="checkbox" name="color-toys" value="4"/>Серый<br />
-						<input type="checkbox" name="color-toys" value="3"/>Розовый<br />
+						<input class="checkbox" type="checkbox" name="color-toys" value="4" checked="checked"/>Серый<br />
+						<input class="checkbox" type="checkbox" name="color-toys" value="3"/>Розовый<br />
 					</div>
 					<div class="form__attribute form__checkbox text-bold-max">
-						<input type="checkbox" name="color-toys" value="2" /><label>"Тиффани"</label><br /> 
-						<input type="checkbox" name="color-toys" value="6"/>Оранжевый<br />
+						<input class="checkbox" type="checkbox" name="color-toys" value="2" /><label>"Тиффани"</label><br /> 
+						<input class="checkbox" type="checkbox" name="color-toys" value="6"/>Оранжевый<br />
 					</div>
 				</div>
 			</div>
 			<div class="form__name"> 
 				<div>
-					<div class="form__param text-bold-average form__param_info"> 
-						<div class="form__text-title">
-						ФИО
+					<div class="form__param text-bold-average"> 
+						<div class="form__text-info">ФИО
 						</div>
 					</div>
 					<div class="form__attribute form__info-label-text text-bold-max">
-						<div>
-						Имя: 
+						<div class="form__info-label-text-item">Имя: 
 						<div class="form__line">
-							<input class="form__border" type="text" name="first-name" 	placeholder="Введите ваше имя" required/><br />
+							<input class="form__border text-normal-max" type="text" name="first-name" 	placeholder="Введите ваше имя" required/><br />
 						</div>
 						</div>
-						<div>
-						Фамилия:
+						<div class="form__info-label-text-item">Фамилия:
 						<div class="form__line">
-							<input class="form__border" type="text" name="last-name" 	placeholder="Укажите фамилию" required/><br />
+							<input class="form__border text-normal-max" type="text" name="last-name" placeholder="Укажите фамилию" required/><br />
 						</div>
 						</div>
-						<div>
+						<div class="form__info-label-text-item">
 						Отчество: 
 						<div class="form__line">
-							<input class="form__border" type="text" name="otc-name" placeholder="Отчество, если желаете" required/><br />
+							<input class="form__border text-normal-max" type="text" name="otc-name" placeholder="Отчество, если желаете" required/><br />
 						</div>
 						</div>
 					</div>
@@ -140,67 +137,64 @@
 			</div>
 			<div class="form__contact"> 
 				<div>
-					<div class="form__param text-bold-average form__param_contacts"> 
-						<div class="form__text-title tel">ТЕЛ 
+					<div class="form__param text-bold-average"> 
+						<div class="form__text-contact">ТЕЛ 
 						</div>
-						<div class="form__text-title e-mail">E-MAIL
+						<div class="form__text-contact">E-MAIL
 						</div>
 					</div>
 					<div class="form__attribute form__tel-email text-bold-max">
 						<div class="form__line-contacts"> 
-							<input class="form__border-contact text-normal-max" type="tel" src="img/mishka-logo-desktop.png" name="number" placeholder="+7 XXX XX XX*" required/><br />
+							<input class="form__border-contact tel text-normal-max" type="tel" src="img/mishka-logo-desktop.png" name="number" placeholder="+7 XXX XX XX*" required/><br />
+							
 						</div>
 						<div class="form__line-contacts">
-							<input class="form__border-contact text-normal-max"type="email" name="e-mail" placeholder="Ваш e-mail*" required /><br />
+							<input class="form__border-contact e-mail text-normal-max" type="email" name="e-mail" placeholder="Ваш Email*" required /><br />
+						
 						</div>
 					</div>
 				</div>
 			</div>
 			<div class="form_dopinfo"> 
-				<div class="form__container">
-					<div class="form__param text-bold-average form__param_dopinfo"> 
-						<div class="form__text-title">ДОП
+				<div>
+					<div class="form__param text-bold-average"> 
+						<div class="form__param_dopinfo">ДОП
 						</div>
 					</div> 
-					<div class="form__attribute form__textarea text-bold-max">
+					<div class="form__attribute form__textarea ">
 						<div> 
-							<textarea style="border:1px solid;" class="form__border-dopinfo" cols="30" rows="5" placeholder="все ваши пожелания к заказу"/>
-							</textarea>
+							<textarea class="form__border-dopinfo text-normal-max" cols="30" rows="5" placeholder="Опишите все ваши пожелания к заказу"/></textarea>
 						</div>
+					</div>
+				</div>
+				<div>
+					<button class="form__send text-bold-average">ОТПРАВИТЬ ЗАКАЗ
+					</button>
+					<div class="form__text-dopinfo"> *Поля обязательны для заполнения
 					</div>
 				</div>
 			</div>
 		</form>
-		<button>Отправить заказ
-		</button>
-		<p> Все поля являются обязательными</p>
 		</div>
 	</section>
-
-
-
-
-
-
 	<footer class="footer"> 
 		<div class="footer__container">
 			<div class="footer__container-logo">
-			<div class="footer__logo">
-			</div>
+				<div class="footer__logo">
+				</div>
 			</div>
 			<div class="footer__container-refer">
-			<div class="footer__insta">
-			</div>
-			<div class="footer__fb">
-			</div>
-			<div class="footer__twitter">
-			</div>
-			
+				<div class="footer__insta">
+				</div>
+				<div class="footer__fb">
+				</div>
+				<div class="footer__twitter">
+				</div>
 			</div>
 			<div class="footer__container-devel text-bold-max">
-			<a class='text-refer' href="#">Разработано</a>
+				<a class='text-refer' href="#">Разработано</a>
 			</div>
 		</div>
-		</footer> 
+	</footer>  
 </body>
 </html>

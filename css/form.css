@@ -1,150 +1,304 @@
 .form{
-//	border:solid;
+
 }
 
+/* Мы будем рады воплотить в жизнь ваши пожелания! */
 .form__text{
 	margin-left: 220px;
-	margin-top: 110px;
+	margin-top: 115px;
 	color: #444444; 
 	line-height: 30px; 
-	//border: solid;
 }
 
-.form__type{
-	background-color: #FFFFFF;
-	//border: solid;
-	height: 240px;
-}
-
-.form__color{
-	background-color: #e7e7e7;
-//	border: solid;
-	height: 225px;
-}
-
-.form__name{
-	background-color: #FFFFFF;
-	//border: solid;
-	height: 305px;
-}
-
-.form__contact{
-	background-color: #e7e7e7;
-//	border: solid;
-	height: 225px;
-}
-
-.form_dopinfo{
-	background-color: #FFFFFF;
-	//border: solid;
-	height: 260px;
-}
-
+/* Параметры блоков */
 .form__param{
 	display: inline-block;
 	float: left;
 	color: #62d1ba;
-	//border: solid;
 	width: 160px;
 	margin-left: 50px;
 }
 
-.form__text-title{
-	//border:solid;
-	text-align: center;
-}
-
-.form__param_color {
-	margin-top: 60px;
-}
-.form__param_info {
-	margin-top: 60px;
-}
-.form__param_contacts {
-	margin-top: 60px;
-}
-.tel{
-
-}
-.e-mail{
-	margin-top: 60px;
-}
-
-.form__param_dopinfo {
-	margin-top: 60px;
-}
-.form__param_type {
-	margin-top: 60px;
-}
-
+/* Атрибуты (формы)*/
 .form__attribute{
-	display:inline-block; 
-	//border: solid;
+	display: inline-block; 
 	margin-top: 30px;
 	line-height:60px; 
 }
 
-.form__radiobutton{
+/* ТИП */
+.form__type{
+	background-color: #FFFFFF;
+	height: 235px;
+}
 
+.form__text-type {
+	text-align: center;
+	margin-top: 70px;
+}
+
+.form__radiobutton{
+	margin-top: 55px;
+}
+
+.radiobutton {
+	margin-left: 15px;
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	color: #ffffff;
+}
+
+.radiobutton:before {
+	content:'';
+	display: block;
+	width: 50%;
+	height: 50%;
+	margin-top: 12px;
+	margin-left: 12px; 
+	border-radius: 50%; 
+}
+
+.radiobutton:checked:before {
+	background: #62d1ba;
+}
+
+.form__type-label{
+	float: right;
+	width: 400px;
+	padding-left: 20px; 
+}
+
+/* ЦВЕТ */
+.form__color{
+	background-color: #f1f1f1;
+	height: 225px;
+}
+
+.form__text-color{
+	margin-top: 60px;
+	text-align: center;
 }
 
 .form__checkbox{
 	width: 250px;
+	margin-top: 45px;
+	margin-left: 10px;
+}
+
+.checkbox {
+	float: left;
+	width: 52px;
+	height: 52px;
+	margin-right: 30px;
+}
+
+/* ИНФОРМАЦИЯ */
+.form__name{
+	background-color: #FFFFFF;
+	height: 305px;
+}
+
+.form__text-info {
+	margin-top: 65px;
+	text-align: center;
 }
 
 .form__info-label-text{
-	
+	margin-top: 45px;
+	margin-left: 15px;
 }
 
-.form__info-text{
-
+.form__info-label-text-item{
+	margin-bottom: 15px;
 }
 
-.form__tel-email{
-
-}
-
-.form__textarea{
-
-}
-
-.form__line-dopinfo{
-	//border: solid;
-}
-
-.form__line-contacts{
-	margin-top: 10px;
-	margin-left: 10px;
-	border-bottom: 1px solid;
-	width: 700px;
-	
+.form__label{
+	border: solid;
 }
 
 .form__line{
-	border-bottom: 1px solid;
 	display:inline-block; 
-	width: 590px;
+	margin-left: 20px;
 }
-
 
 .form__border{
 	border: none;
+	width: 550px;
+	height: 50px;
+	border-bottom: 2px solid #000000;
+	padding-left: 15px;
+	color:#444444;
+}
+
+.form__border:hover{
+	border-bottom: 2px solid #62d1ba;
+}
+
+.form__border:focus{
+	border-bottom: 2px solid #62d1ba;
+    outline:none;
+}
+
+/* Текст (тип, цвет..) */
+.form__text-title{
+	text-align: center;
+}
+
+/* КОНТАКТЫ */
+.form__contact{
+	background-color: #f1f1f1;
+	height: 230px;
+}
+
+.form__tel-email{
+	margin-top: 40px;
+}
+
+.form__line-contacts{
+	margin-left: 12px;
+	width: 700px;
+}
+
+.form__text-contact{
+	margin-top: 60px;
+	text-align: center;
+}
+
+.form__border-contact{
+	border: none;
+	background-color: #f1f1f1;
+	width: 685px;
+	height: 50px;
+	border-bottom: 2px solid #000000;
+	padding-left: 18px;
+}
+
+.tel{
+	margin-top: 10px;
+	background-image: url(../img/phone.png);   
+    background-repeat: no-repeat; 
+    background-position: 670px 10px; 
+    color:#444444;
+}
+
+.tel:hover{
+	border-bottom: 2px solid #62d1ba;
+	background-image: url(../img/phone-hover.png);
+}
+
+.tel:focus{
+	border-bottom: 2px solid #62d1ba;
+    outline: none;
+    background-image: url(../img/phone-hover.png);
+}
+
+.e-mail{
+	padding-top: 20px;
+	background-image: url(../img/mail.png);   
+    background-repeat: no-repeat;   
+    background-position: 670px 40px;
+    color:#444444;
+}
+
+.e-mail:hover{
+	border-bottom: 2px solid #62d1ba;
+}
+
+.e-mail:focus{
+	border-bottom: 2px solid #62d1ba;
+    outline: none;
+}
+
+/* ДОП Информация */
+.form_dopinfo{
+	background-color: #FFFFFF;
+	height: 320px;
+}
+
+.form__param_dopinfo{
+	margin-top: 60px;
+	text-align: center;
+}
+
+.form__textarea{
+	margin-left: 15px;
+	margin-top: 50px;
 }
 
 .form__border-dopinfo{
 	border: none; 
-	width: 700px;
+	width: 680px;
+	height: 128px;
+	border: 2px solid #444444;
+	padding-top: 10px;
+	padding-left: 15px;	
+	color:#444444;
 } 
 
-.form__border-contact{
-	border: none;
-	background-color: #e7e7e7;
+.form__border-dopinfo:hover{
+	border: none; 
+	width: 680px;
+	height: 128px;
+	border: 2px solid #62d1ba;
+	padding-top: 10px;
+} 
 
-	
+.form__border-dopinfo:active{
+	border: none; 
+	width: 680px;
+	height: 128px;
+	border: 2px solid #62d1ba;
+	padding-top: 10px;
+	padding-left: 15px;	
+} 
+
+.form__send{
+	display: inline-block;
+	margin-top: 22px;
+	margin-left: 225px;
+	padding: 13px 30px 13px 30px;
+	border: 2px solid;
+	background-color: #FFFFFF;
+	border-color: #444444;
+	color: #444444; 	
+} 
+
+.form__send:hover{
+	background-color: #444444;
+	color: #f6f6f6;
 }
 
-.form__label{
-	// фамилия, имя, отчество
-	//border: solid;
+.form__send:active{
+	background-color: #444444;
+	color: #8d8d8d;
 }
+
+.form__text-dopinfo{
+	display: inline-block;
+	margin-left: 165px;
+	color: #444444; 
+	letter-spacing: 0.6px;
+	line-height: 30px; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
