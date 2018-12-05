@@ -39,15 +39,7 @@
 	border-color: #444444;
 	color: #444444; 	
 }
-.review__write:hover{
-	background-color: #444444;
-	color: #f6f6f6;
-}
 
-.review__write:active{
-	background-color: #444444;
-	color: #8d8d8d;
-}
 .review__text{
 	display: inline-block;
 	padding-top: 35px;

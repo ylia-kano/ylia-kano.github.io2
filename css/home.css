@@ -52,7 +52,6 @@
 	margin-top: 110px;
 	margin-left: 270px;
 	text-align: center;
-	
 	letter-spacing: 0.2px;
 	float: left;
 }
@@ -86,6 +85,7 @@
 .inter{
 	float: left;
 	background-color: #63d1bb;
+	outline: none;
 }
 
 .inter:hover{
@@ -101,6 +101,7 @@
 .kids{
 	float: left;
 	background-color: #56c3b2;
+	outline: none;
 }
 
 .kids:hover{
