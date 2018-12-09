@@ -1,5 +1,6 @@
 .review{
-	margin-top: 50px;
+	margin-top: 40px;
+
 }
 
 .review__container{
@@ -22,14 +23,14 @@
 
 .review__title{
 	display: inline-block;
-	margin-top: 55px;
+	margin-top: 60px;
 } 
 
 .review__write{
 	display: inline-block;
 	float: right;
-	margin-left: 470px;
-	margin-top: 70px;
+	margin-left: 475px;
+	margin-top: 80px;
 	padding-top: 15px;
 	padding-left: 40px;
 	padding-bottom: 10px;

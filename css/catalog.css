@@ -1,7 +1,3 @@
-.text-title{
-	padding-left: 10px;
-}
-
 .catalog{
 	height: 800px;
 	margin-top: 10px;
@@ -28,10 +24,6 @@
 
 .catalog__title{ 
 	line-height: 25px;
-}
-
-.catalog__text{
-
 }
 
 .catalog__lines{

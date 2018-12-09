@@ -16,6 +16,7 @@
 	height: 80px;
 	display: inline-block;
 	float: left;
+	margin-left: 50px;
 }
 
 .nav__item-catalog{
@@ -39,7 +40,6 @@
 	float: left;
 	margin-bottom: 5px;	
 }
-
 
 .header__item-search{
 	display: inline-block;	
@@ -68,6 +68,7 @@
 	float: right;
 	background: url(../img/cart.png) no-repeat;
 	margin-top: 30px;
+	margin-right: 50px;
 }
 
 .header__item-korz{

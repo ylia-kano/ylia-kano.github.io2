@@ -1,4 +1,5 @@
 .contacts{
+
 	margin-top: 160px;
 }
 
@@ -19,6 +20,7 @@
 	display: inline-block;
 	width: 400px;
 	margin-top: 55px;
+
 }
 
 .contacts__info-title{
@@ -28,7 +30,7 @@
 
 .contacts__info-cont{
 	margin-top: 40px;
-	margin-left: 60px;
+	margin-left: 65px;
 }
 
 .contacts__info-cont-cont{
@@ -47,7 +49,7 @@
 
 .contacts__atr-address{
 	display: inline-block;
-	margin-left: 30px;
+	margin-left: 20px;
 	line-height: 30px;
 }
 
@@ -68,8 +70,8 @@
 }
 .contacts__info-write{
 	margin-top: 80px;
-	margin-left: 60px;
-	margin-right: 105px;
+	margin-left: 65px;
+	margin-right: 100px;
 }
 
 .contacts__info-write-button{

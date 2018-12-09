@@ -1,6 +1,8 @@
 .form{
 }
-
+.text-title{
+	padding-left: 10px;
+}
 /* Мы будем рады воплотить в жизнь ваши пожелания! */
 .form__text{
 	margin-left: 220px;

@@ -1,13 +1,11 @@
 .footer{
 	background-color: #f1f1f1;	
 	margin-top: 25px;
+	height: 140px;
+	margin-right: 10px;
+	margin-left: 10px;
 }
 
-.footer__container{
-	width: 1168px;	
-	height: 140px;
-	margin: 0 50px;	
-}
 
 .footer__container-logo{
 	display: inline-block;
@@ -81,7 +79,7 @@
 
 .footer__container-devel{
 	display: inline-block;
-	margin-top: 60px;
+	margin-top: 55px;
 	float: right;
 	margin-right: 120px;
 } 

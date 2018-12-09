@@ -1,17 +1,16 @@
 .home{
 	background-color: #f9f9f9;
-	margin: 0px;
-	padding: 0;
 }
 
 .home__image{
 	background: url(../img/hero-desktop.jpg);	
-	height: 747px;
+	height: 745px;
 	position: relative;
+//	margin-left: 5px;
 }
 
 .menu{
-	width: 1050px;
+	width: 1060px;
 	margin-left: 47px;
 	border: solid;
 	border-color: #f9f9f9;
@@ -19,26 +18,23 @@
 
 .menu__new{
 	display: inline-block;
-	margin-top: 17px;
+	margin-top: 15px;
 	margin-right: 58px;
 	float: left;
+//	margin-left: 7px;
 }
 
 .menu__sale{
 	display: inline-block;
-	margin-top: 17px;
+	margin-top: 15px;
 	float: left;
-}
-
-.menu__txt{
-	font-size: 14px;
-	font-weight: bold;
 }
 
 .menu__info{
 	display: inline-block;
 	margin-top: 15px;
 	float: right;
+	margin-right: 10px;
 }
 
 .menu__txt-info{
@@ -54,6 +50,7 @@
 	text-align: center;
 	letter-spacing: 0.2px;
 	float: left;
+	line-height: 60px;
 }
 
 .home-button{

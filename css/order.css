@@ -1,24 +1,50 @@
 .order{
-	margin: 0px;
-	padding: 0;
 
 }
+
 .order__container{
 	background-color: #f1f1f1;
 	position: relative;
 	height: 260px;
 }
 
-.menu{
+.order__menu{
+	width: 1060px;
+	margin-left: 47px;
+	border: solid;
 	border-color: #f1f1f1;
 }
-.order__title{
-	margin-top: 50px;
-	margin-left: 330px;
-	text-align: center;
-	line-height: 60px;
-	letter-spacing: 0.2px;
+
+.order__menu-new{
+	display: inline-block;
+	margin-top: 15px;
+	margin-right: 58px;
 	float: left;
+	margin-left: 7px;
+}
+
+.order__menu-sale{
+	display: inline-block;
+	margin-top: 15px;
+	float: left;
+}
+
+.order__menu-info{
+	display: inline-block;
+	margin-top: 15px;
+	float: right;
+}
+
+.order__menu-txt-info{
+	text-decoration: none;
+	color: #a5a5a5;
+	letter-spacing: 0.1px;
+	font-size: 15px;
+}
+
+.order__title{
+	margin-top: 80px;
+	text-align: center;
 }
 
 .order__image-bottom{
