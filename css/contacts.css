@@ -86,22 +86,11 @@
 	background-color: #FFFFFF;
 }
 
-.contacts__cards{
+#map{
 	display: inline-block;
 	width: 525px;
 	height: 455px;
 	float: right;
-	background: url(../img/map-desktop@1x.jpg);
-}
 
-.carta{
-	height: 400px;
-	width: 700px;
-	border: solid;
-}
-
-.contacts__cards-pin{
-	margin-top: 150px;
-	margin-left: 240px;
 }
 
