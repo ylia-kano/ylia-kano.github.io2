@@ -1,5 +1,6 @@
 .catalog{
-	height: 800px;
+	//height: 800px;
+	
 }
 
 .catalog__item{
@@ -17,8 +18,8 @@
 }
 
 .catalog__item:active{
-	color: #cacaca;
 	box-shadow: 0 0 5px rgba(0,0,0,0.4);
+	color: #cacaca;
 }
 
 .catalog__title{ 

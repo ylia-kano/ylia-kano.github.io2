@@ -33,7 +33,7 @@
 
 .video__icon-play:active{
 	background: url(../img/play-active.png) no-repeat;
-margin-top: 195px;
+	margin-top: 195px;
 	margin-left: 295px;
 }
 

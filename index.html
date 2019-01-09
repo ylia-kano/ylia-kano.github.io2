@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="css/main.css">
 	<link rel="stylesheet" href="css/home.css">
 	<link rel="stylesheet" href="css/product.css">
@@ -12,16 +13,36 @@
 	<link rel="stylesheet" href="css/footer.css">
 	<link rel="stylesheet" href="css/font.css">
 	<link rel="stylesheet" href="css/button.css">
+	
+
+	<link rel="stylesheet" media="screen and (color)" href="css/mobile.css">
+
+
+
 	<script src='js/google-maps.js'></script>
 	<script async defer
  	src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCneF4dZFVFvHqGnHGDtFuFz6fqcyvVpSw&callback=initMap"></script>
- </head> 
-	<title>Mishka</title>	
-</head>
+
+	<title>Mishka</title>
+ </head> 	
 <body >
 	<header class="header header_line">
+		
 		<div class="container">
+
+		<div class="nav__panel">
+
+		<div class="header__item-logo-mobile">
+		<div class="header__logo-mobile">
+		<img src="img/mishka-logo-mobile.png"  height="135">
+		</div>
+		<div class="header__image-menu-mobile">
+		</div>
+		</div>
+				</div>
+				
 			<nav class="nav">
+
 				<div class="nav__item-catalog text-bold-average">
 					<a class='text-refer' href="catalog.html">Каталог товаров</a>
 				</div>
@@ -35,9 +56,11 @@
 				</a>
 				</div>
 				
-			<div>
+			<div class="submenu">
 				<div class="header__item-search">
-					<div class="search">
+					<div class="search text-bold-average">
+					<a class='text-refer  refer-mobile' href="#">Поиск 
+        		</a>
 					</div>
 				</div>
 				<div class="header__item-korzina">
@@ -47,7 +70,9 @@
         		</div> 
         		</div>
         	</div>
+
     	</div>	
+    	
  	</header>
  	<action>
     <section class="home">
@@ -70,17 +95,25 @@
               	    	<div class="home-button__item-text">
               	    	Предметы <br>интерьера 
               	    	</div>
+              	    	<div class="inter-mobile">
+                    		
+                    	</div>
               	    	<div class="home-button__img">
+              	    	
                 	     	<img src="img/interior.png" >
                     	</div>
                	 	</button>
                 	<button class="home-button__item kids text-bold-max">
                 		<div class="home-button__item-text">Детские <br>игрушки
                 		</div>
-                    	<div class="home-button__img">
+                		<div class="toy-mobile">
+                    		
+                    	</div>
+                    	<div class="home-button__img ">
+                    	
                 	    	<img src="img/toy.png" >
                     	</div>
-                    	</button>
+                    </button>
                 	
             	</div> 
             </div>
@@ -94,7 +127,7 @@
         	<div class="product__title text-title">Вязаные корзинки
         	</div>
         	<div class="product__container">
-           		<div class="product__ned text-bold-average">ТОВАР<br>НЕДЕЛИ
+           		<div class="product__ned text-bold-average">ТОВАР НЕДЕЛИ
             	</div>
             	<div class="product__info"> 
                 <div class="product-week">
@@ -142,7 +175,7 @@
 			</div>
 			</div>
 		</section>
-		<section class="about">
+	<section class="about">
 			<div class="container">
 			<div class="about__title text-title">
 			Коротко о нас: 
@@ -180,11 +213,10 @@
 				</div>
 				</div>
 			</div>
-		</section>
-		<section class="review">
+	</section>
+	<section class="review">
 			<div class="container">
 				<div class="review__container">
-
 				<div class="review__elements">
 					<div class="review__element">
 						<div class="review__title text-title">Отзывы
@@ -194,7 +226,7 @@
 						</button> 
 					</div>
 					<div class="review__element">
-						<div class="review__text text-normal-average">Я молодая мама, но все равно фотографии не набирали и близко такого количества лайков,<br> как у популярных инстамамочек. В отчаянии, я накупила аксессуаров и игрушек в Мишке,<br> и мои фотографии сразу стали более стильными, а также набирают больше лайков!
+						<div class="review__text text-normal-average">Я молодая мама, но все равно фотографии не набирали и близко такого количества лайков, как у популярных инстамамочек. В отчаянии, я накупила аксессуаров и игрушек в Мишке, и мои фотографии сразу стали более стильными, а также набирают больше лайков!
 						</div>
 					</div>
 					<div class="review__element">
@@ -218,9 +250,8 @@
 			<img src="img/zigzag-line-desktop.png">		
 			</div>
 			</div> 
-		</div>
-		</section>
-		<section class="contacts">
+	</section>
+	<section class="contacts">
 			<div class="container">
 			<div class="contacts__container">
 				<div class="contacts__image">
@@ -240,8 +271,8 @@
 						<div class="contacts__info-cont-cont">
 							<div class="contacts__address"><label">адрес:</label> 
 							</div>
-							<div class="contacts__atr-address">г. Санкт-Петербург,<br>
-ул. Большая Конюшенная, <br> д. 19/8,офис 101<br> 
+							<div class="contacts__atr-address">г. Санкт-Петербург,
+							<br>ул. Большая Конюшенная, <br> д. 19/8,офис 101<br> 
 							</div>
 						</div>
 					</div>
@@ -252,15 +283,13 @@
 					</div>
 				</div> 
 				<div id="map">
-					<!--<div class="contacts__cards-pin">
-						<img src="img/map-pin.png">
-					</div>-->
 				</div>
 			</div>
-		</section>
-		<footer class="footer"> 
+			</div>
+	</section>
+	<footer class="footer"> 
 		<div class="container">
-			<div class="footer__container-logo" >
+			<div class="footer__container-logo">
 			<div class="footer__logo">
 		
 			</a>
@@ -276,9 +305,9 @@
 			
 			</div>
 			<div class="footer__container-devel text-bold-max">
-			<a class='text-refer' href="#">Разработано</a>
+			<a class='text-refer' href="#">Разработано: kano_o</a>
 			</div>
 		</div>
-		</footer> 
+	</footer> 
 </body>
 </html>

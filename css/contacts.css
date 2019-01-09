@@ -64,10 +64,12 @@
 	border-bottom: 1px solid #46c1ae;
 	color: #59c5b4;
 }
+
 .contacts__atr-e-mail:active{
 	border-bottom: 1px solid #ecf9f7;
 	color: #d3ede8;
 }
+
 .contacts__info-write{
 	margin-top: 80px;
 	margin-left: 65px;
@@ -91,6 +93,4 @@
 	width: 525px;
 	height: 455px;
 	float: right;
-
 }
-

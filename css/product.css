@@ -16,8 +16,9 @@
 
 .product__ned{
 	display: inline-block;
-	width: 160px;
+	width: 60px;
 	float: left;
+	margin-right:100px;
 	margin-top: 65px;
 	text-align: center;
 	color: #63d1bb;
